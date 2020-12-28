@@ -8,7 +8,9 @@ backend server1 {
     .port = "80";
 }
 backend server2 {
-    .host = "b.tile.openstreetmap.org";
+    # .host = "b.tile.openstreetmap.org";
+    .host = "151.101.2.217"
+    .port = "80";
 }
 backend server3 {
     .host = "c.tile.openstreetmap.org";
