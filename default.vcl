@@ -14,8 +14,8 @@ backend server2 {
 }
 backend server3 {
     # .host = "c.tile.openstreetmap.org";
-    .host = "151.101.38.217"
-    .port = "80"
+    .host = "151.101.38.217";
+    .port = "80";
 }
 
 sub vcl_init {
