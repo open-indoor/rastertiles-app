@@ -9,7 +9,7 @@ backend server1 {
 }
 backend server2 {
     # .host = "b.tile.openstreetmap.org";
-    .host = "151.101.2.217"
+    .host = "151.101.2.217";
     .port = "80";
 }
 backend server3 {
