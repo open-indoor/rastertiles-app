@@ -1,4 +1,4 @@
-FROM varnish:6.2
+FROM varnish:6.5
 
 RUN apt-get -qq update \
   && DEBIAN_FRONTEND=noninteractive \
