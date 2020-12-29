@@ -3,8 +3,8 @@ vcl 4.0;
 import directors;    # load the directors
 
 backend server1 {
-    # .host = "a.tile.openstreetmap.org";
-    .host = "151.101.194.217";
+    .host = "a.tile.openstreetmap.org";
+    # .host = "151.101.194.217";
     .port = "80";
 }
 backend server2 {
